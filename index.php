@@ -227,7 +227,20 @@
             </div>
          </section>
          <footer id="footer">
-         	
+         	<div class="container">
+         		<div class="telefonosArea">
+         			<div class="blueArea">
+         				<p>Asesorate por teléfono, llamanos al 0810-222-2848</p>
+         				<p>También podés comprar llamando al 0810-222-2826</p>
+         				<small>Lun a Vie de 8 a 20hs, Sáb y Dom de 9 a 15hs.</small>
+         			</div>
+         		</div>
+         		<div class="legalesArea">
+         			<small>2008 - 2017 Avantrip.com  Todos los derechos reservados</small>
+         			<small>Avantrip.com SRL Legano Jro. 13969 - Disp. 299</small>
+         			<small>Este es un sitio seguro. Utilizamos un almacenamiento encriptado para proteger su información personal.</small>
+         		</div>
+         	</div>
          </footer>
       </div>
       <script type="text/javascript" src="js/jquery-1.10.2.min.js?v=1.0.1"></script>
