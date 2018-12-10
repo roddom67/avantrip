@@ -10,12 +10,12 @@
 	<meta http-equiv="pragma-directive: no-cache">
 	<meta http-equiv="cache-directive: no-cache">
 	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+	
 	<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
-	<meta name="msapplication-TileColor" content="#da532c">
-	<meta name="theme-color" content="#ffffff">
 
 	
    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -35,8 +35,7 @@
 <!doctype html>
 <html lang="es">
    <head prefix="og: http://ogp.me/ns#">
-      <script type="text/javascript">var loc=window.location.href;-1!=loc.indexOf("/site/static/")&&document.write("<base href='/site/static/' />")</script>
-      <base href="/">
+
       <meta charset="UTF-8"/>
       <meta name="robots" content="index,follow"/>
       <meta http-equiv="cache-control" content="no-cache"/>
@@ -60,113 +59,117 @@
    <body>
       <div id="wrapper" class="staticPage flights-to hotels-to newYork">
          <header id="header">
-         	<nav>
-         		<ul>
-         			<li class="empresaArea">
-         				<a href="/" title="Avantrip"><img src="" alt="Avantrip" title="Avantrip"></a>
-         			</li>
-         			<li class="menuArea">
-         				<ul>
-         					<li>
-         						<a href="" title="Vuelos">Vuelos</a>
-         					</li>
-         					<li>
-         						<a href="" title="Hoteles">Hoteles</a>
-         					</li>
-         					<li>
-         						<a href="" title="Paquetes">Paquetes</a>
-         					</li>
-         					<li>
-         						<a href="" title="Autos">Autos</a>
-         					</li>
-         					<li>
-         						<a href="" title="más">más</a>
-         						<ul>
-         							<li>
-         								<a href="" title="Cruceros">Cruceros</a>
-         							</li>
-         							<li>
-         								<a href="" title="Disney">Disney</a>
-         							</li>
-         						</ul>
-         					</li>
-         				</ul>
-         			</li>
-         			<li class="usuarioArea">
-         				<p>Bienvenido, <strong>Alejandro Altamirano</strong><a href="" title="Usuario"><i>></i></a></p>
-         				<ul>
-         					<li>
-         						<a href="" title="Mi cuenta">Mi cuenta</a>
-         					</li>
-         					<li>
-         						<a href="" title="Log out">Log Out</a>
-         					</li>
-         				</ul>
-         			</li>
-         		</ul>
-         	</nav>
+         	<div class="container">
+         		<nav>
+         			<ul>
+         				<li class="menuArea">
+         					<span class="empresaArea">
+         						<a href="/" title="Avantrip"><img src="images/avantrip.png" alt="Avantrip" title="Avantrip"></a>
+         					</span>
+         					<ul>
+         						<li>
+         							<a href="" title="Vuelos" class="active">Vuelos</a>
+         						</li>
+         						<li>
+         							<a href="" title="Hoteles">Hoteles</a>
+         						</li>
+         						<li>
+         							<a href="" title="Paquetes">Paquetes</a>
+         						</li>
+         						<li>
+         							<a href="" title="Autos">Autos</a>
+         						</li>
+         						<li class="mas">
+         							<a href="" title="más">más<i class="fas fa-angle-down"></i></a>
+         							<ul>
+         								<li>
+         									<a href="" title="Cruceros">Cruceros</a>
+         								</li>
+         								<li>
+         									<a href="" title="Disney">Disney</a>
+         								</li>
+         							</ul>
+         						</li>
+         					</ul>
+         				</li>
+         				<li class="usuarioArea">
+         					<p>Bienvenido, <strong>Alejandro Altamirano</strong><a href="" title="Usuario"><i class="fas fa-angle-down"></i></a></p>
+         					<ul>
+         						<li>
+         							<a href="" title="Mi cuenta">Mi cuenta</a>
+         						</li>
+         						<li>
+         							<a href="" title="Log out">Log Out</a>
+         						</li>
+         					</ul>
+         				</li>
+         			</ul>
+         		</nav>
+         	</div>
          </header>
          <main id="landscape">
             <div class="imagen-titulo"><img src="images/vuelos-a-nueva-york.jpg" alt="Vuelos y Hoteles a Nueva York" title="Vuelos y Hoteles a Nueva York"/></div>
-            <aside class="breadcrumb">
-               <div class="contentLandscape">
-                  <ul>
-                     <li><a href="/" title="Home"><span>Home</span></a></li>
-                     <li><a href="/destinos.html" title="Destinos"><span>Destinos</span></a></li>
-                     <li><a href="/destinos/estados-unidos.html" title="Estados Unidos"><span>Estados Unidos</span></a></li>
-                     <li><a href="/destinos/estados-unidos/nueva-york.html" title="Nueva York"><strong>Nueva York</strong></a></li>
-                  </ul>
-               </div>
-            </aside>
-            <section class="contentLandscape">
-               <header class="info">
-                  <h1 class="txtHidden">Vuelos y Hoteles a Nueva York</h1>
-                  <h2><span>Escapate a</span> Nueva York</h2>
-               </header>
-               <section class="search">
-                  <article id="flight" class="active">
-                     <h3><span class="hidden">Buscar</span>Vuelos</h3>
-                     <form action="" class="goBack">
-                        <fieldset>
-                           <ul class="flightType">
-                              <li class="hidden"><input type="radio" id="goBack" name="typeFlight" value="Return" checked="checked"/> <label for="goBack">Ida y Vuelta</label></li>
-                              <li class="hidden"><input type="radio" id="go" name="typeFlight" value="OneWay"/> <label for="go">Solo ida</label></li>
-                              <li class="hidden"><input type="radio" id="multi" name="typeFlight" value="Other"/> <label for="multi">Multidestino</label></li>
-                              <li><input name="rest" type="hidden" id="rest" value="true"/></li>
-                           </ul>
-                        </fieldset>
-                        <fieldset class="destinyWrapper">
-                           <ul>
-                              <li class="destiny">
-                                 <ul>
-                                    <li>
-                                    	<label for="origenText">Origen</label> 
-                                    	<input name="origenText" id="origenText" type="text" class="autoCompleteFlag originPlace" value="Buenos Aires (EZE)"/> 
-                                    </li>
-                                    <li>
-                                    	<label for="destinoText">Destino</label> 
-                                    	<input id="destinoText" name="destinoText" type="text" class="autoCompleteFlag destinyPlace" value="Nueva York (JFK)" readonly="readonly"/> 
-												</li>
-                                    <li>
-                                    	<label for="fechaIda">Fechas</label> 
-                                    	<input class="datePickerFlag originDate" type="text" readonly="readonly"/> 
-                                    </li>
-                                    <li>
-                                    	<label for="pasajeros" class="passengers">Pasajeros y Clase</label> 
-                                    	<input type="text" class="passengerText" readonly="readonly"/> 
-                                    	<input name="fechaVuelta" id="fechaVuelta" class="destinyDateHidden" type="hidden"/>
-                                    </li>
-                                 </ul>
-                              </li>
-                              <li>
-                            		<input name="categoryGA" value="vuelos" type="hidden"/> 
-                           		<input type="submit" name="btnResultadoBusqueda" id="btnResultadoBusqueda" value="Buscar"/>
-                             </li>
-                           </ul>
-                        </fieldset>
-                     </form>
-                  </article>
-               </section>
+            <div class="container">
+             	<aside class="breadcrumb">
+               	<div class="contentLandscape">
+                  	<ul>
+                     	<li><a href="/" title="Home"><span>Home</span></a></li>
+                     	<li><a href="/destinos.html" title="Destinos"><span>Destinos</span></a></li>
+                     	<li><a href="/destinos/estados-unidos.html" title="Estados Unidos"><span>Estados Unidos</span></a></li>
+                     	<li><a href="/destinos/estados-unidos/nueva-york.html" title="Nueva York"><strong>Nueva York</strong></a></li>
+                  	</ul>
+               	</div>
+            	</aside>
+             	<section class="contentLandscape">
+               	<header class="info">
+                  	<h1 class="txtHidden">Vuelos y Hoteles a Nueva York</h1>
+                  	<h2><span>Escapate a</span> Nueva York</h2>
+               	</header>
+               	<section class="search">
+                  	<article id="flight" class="active">
+                     	<h3><span class="hidden">Buscar</span>Vuelos</h3>
+                     	<form action="" class="goBack">
+                        	<fieldset>
+                           	<ul class="flightType">
+                              	<li class="hidden"><input type="radio" id="goBack" name="typeFlight" value="Return" checked="checked"/> <label for="goBack">Ida y Vuelta</label></li>
+                              	<li class="hidden"><input type="radio" id="go" name="typeFlight" value="OneWay"/> <label for="go">Solo ida</label></li>
+                              	<li class="hidden"><input type="radio" id="multi" name="typeFlight" value="Other"/> <label for="multi">Multidestino</label></li>
+                              	<li><input name="rest" type="hidden" id="rest" value="true"/></li>
+                           	</ul>
+                        	</fieldset>
+                        	<fieldset class="destinyWrapper">
+                           	<ul class="row">
+                              	<li class="destinyArea">
+                                 	<ul>
+                                    	<li>
+                                    		<label for="origenText">Origen</label> 
+                                    		<input name="origenText" id="origenText" type="text" class="autoCompleteFlag originPlace" value="Buenos Aires (EZE)"/> 
+                                    	</li>
+                                    	<li>
+                                    		<label for="destinoText">Destino</label> 
+                                    		<input id="destinoText" name="destinoText" type="text" class="autoCompleteFlag destinyPlace" value="Nueva York (JFK)" readonly="readonly"/> 
+													</li>
+                                    	<li>
+                                    		<label for="fechaIda">Fechas</label> 
+                                    		<input class="datePickerFlag originDate" type="text" readonly="readonly"/> 
+                                    	</li>
+                                    	<li>
+                                    		<label for="pasajeros" class="passengers">Pasajeros y Clase</label> 
+                                    		<input type="text" class="passengerText" readonly="readonly"/> 
+                                    		<input name="fechaVuelta" id="fechaVuelta" class="destinyDateHidden" type="hidden"/>
+                                    	</li>
+                                 	</ul>
+                              	</li>
+                              	<li class="submitArea">
+                            			<input name="categoryGA" value="vuelos" type="hidden"/> 
+                           			<input type="submit" name="btnResultadoBusqueda" id="btnResultadoBusqueda" value="Buscar"/>
+                             	</li>
+                           	</ul>
+                        	</fieldset>
+                     	</form>
+                  	</article>
+               	</section>
+          		</div>
             </section>
          </main>
          <section class="preciosPromedio">
@@ -199,13 +202,34 @@
          <section class="ofertasLanding" id="landingPage">
             <div class="container offerContent">
                <h2>Hoteles en Nueva York</h2>
-               <div id="destacadas" class="ofertasContent row">
+               <div id="destacadas" class="ofertasContent">
                   <ul class="offers ofertaData row">
-                  	<li>
+                  	<li class="col-xs-12 col-sm-6 col-md-3">
                   		<a href="">
                   			<div>
                   				<span class="spanImg">
-                  					<img src="" alt="" title="">
+                  					<img src="" alt="Hampton Inn Manhattan" title="Hampton Inn Manhattan">
+                  				</span>
+                  				<div class="textAreaOferta">
+                  					<p>Hotel en Nueva York</p>
+                  					<h2>Hampton Inn Manhattan</h2>
+                  					<span class="stars star4"></span>
+                  					<div class="priceArea">
+                  						<small>Desde</small>
+                  						<p>AR$ 5.961</p>
+                  						<small class="before">Antes <span>AR$ 13.247</span></small>
+                  					</div>
+                  					<small>Habitación por noche</small>
+                  					<h5>Ver Hotel</h5>
+                  				</div>
+                  			</div>
+                  		</a>
+                  	</li>
+                  	<li class="col-xs-12 col-sm-6 col-md-3">
+                  		<a href="">
+                  			<div>
+                  				<span class="spanImg">
+                  					<img src="" alt="Yotel" title="Yotel">
                   				</span>
                   				<div class="textAreaOferta">
                   					<p>Hotel en Nueva York</p>
@@ -222,6 +246,49 @@
                   			</div>
                   		</a>
                   	</li>
+                  	<li class="col-xs-12 col-sm-6 col-md-3">
+                  		<a href="">
+                  			<div>
+                  				<span class="spanImg">
+                  					<img src="" alt="Wyndham New York" title="Wyndham New York">
+                  				</span>
+                  				<div class="textAreaOferta">
+                  					<p>Hotel en Nueva York</p>
+                  					<h2>Wyndham New York</h2>
+                  					<span class="stars star4"></span>
+                  					<div class="priceArea">
+                  						<small>Desde</small>
+                  						<p>AR$ 4.605</p>
+                  						<small class="before">Antes <span>AR$ 13.247</span></small>
+                  					</div>
+                  					<small>Habitación por noche</small>
+                  					<h5>Ver Hotel</h5>
+                  				</div>
+                  			</div>
+                  		</a>
+                  	</li>
+                  	<li class="col-xs-12 col-sm-6 col-md-3">
+                  		<a href="">
+                  			<div>
+                  				<span class="spanImg">
+                  					<img src="" alt="Stewart Hotel" title="Stewart Hotel">
+                  				</span>
+                  				<div class="textAreaOferta">
+                  					<p>Hotel en Nueva York</p>
+                  					<h2>Stewart Hotel</h2>
+                  					<span class="stars star4"></span>
+                  					<div class="priceArea">
+                  						<small>Desde</small>
+                  						<p>AR$ 5.961</p>
+                  						<small class="before">Antes <span>AR$ 13.247</span></small>
+                  					</div>
+                  					<small>Habitación por noche</small>
+                  					<h5>Ver Hotel</h5>
+                  				</div>
+                  			</div>
+                  		</a>
+                  	</li>
+                  	
                   </ul>
                </div>
             </div>
@@ -236,9 +303,23 @@
          			</div>
          		</div>
          		<div class="legalesArea">
-         			<small>2008 - 2017 Avantrip.com  Todos los derechos reservados</small>
-         			<small>Avantrip.com SRL Legano Jro. 13969 - Disp. 299</small>
-         			<small>Este es un sitio seguro. Utilizamos un almacenamiento encriptado para proteger su información personal.</small>
+         			<ul>
+         				<li>
+         					<small>2008 - 2017 Avantrip.com  Todos los derechos reservados</small>
+         					<small>Avantrip.com SRL Legano Jro. 13969 - Disp. 299</small>
+         					<small>Este es un sitio seguro. Utilizamos un almacenamiento encriptado para proteger su información personal.</small>
+         				</li>
+         				<li>
+         					<ul>
+         						<li>
+         							<a href="" title="Norton"><img src="" alt="Norton" title="Norton"></a>
+         						</li>
+         						<li>
+         							<a href="" title="Norton"><img src="" alt="Norton" title="Norton"></a>
+         						</li>
+         					</ul>
+         				</li>
+         			</ul>
          		</div>
          	</div>
          </footer>
