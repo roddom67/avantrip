@@ -304,6 +304,7 @@ fieldset input{
 	background:var(--red);
 	color:var(--white);
 	font-size:20px;
+	cursor:pointer;
 }
 
 .preciosPromedioArea{
@@ -448,7 +449,37 @@ section h2{
 /*--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px*/
 
 @media (max-width: 575px) {
-
+	.imagen-titulo img{
+		width: auto;
+		height: 100%;
+	}
+	.destinyWrapper > ul {
+		flex-direction:column;
+	}
+	.destinyWrapper > ul > li{
+		height: auto;
+		width:100%;
+	}
+	.destinyArea ul{
+		flex-direction:column;
+	}
+	.destinyArea ul li{
+		width:100%;
+	}
+	.destinyWrapper > ul > li.submitArea{
+		height: 70px;
+	}
+	.textArea p{
+		padding: 0;
+	}
+	
+	.ofertasContent ul{
+		flex-direction:column;
+	}
+	.ofertasContent ul li{
+		width:100%;
+		padding-bottom: 40px;
+	}
 	
 }
 
