@@ -111,14 +111,12 @@
             <div class="imagen-titulo"><img src="images/vuelos-a-nueva-york.jpg" alt="Vuelos y Hoteles a Nueva York" title="Vuelos y Hoteles a Nueva York"/></div>
             <div class="container">
              	<aside class="breadcrumb">
-               	<div class="contentLandscape">
-                  	<ul>
-                     	<li><a href="/" title="Home"><span>Home</span></a></li>
-                     	<li><a href="/destinos.html" title="Destinos"><span>Destinos</span></a></li>
-                     	<li><a href="/destinos/estados-unidos.html" title="Estados Unidos"><span>Estados Unidos</span></a></li>
-                     	<li><a href="/destinos/estados-unidos/nueva-york.html" title="Nueva York"><strong>Nueva York</strong></a></li>
-                  	</ul>
-               	</div>
+						<ul>
+							<li><a href="/" title="Home"><span>Home</span></a></li>
+							<li><a href="/destinos.html" title="Destinos"><span>Destinos</span></a></li>
+							<li><a href="/destinos/estados-unidos.html" title="Estados Unidos"><span>Estados Unidos</span></a></li>
+							<li><a href="/destinos/estados-unidos/nueva-york.html" title="Nueva York"><strong>Nueva York</strong></a></li>
+						</ul>
             	</aside>
              	<section class="contentLandscape">
                	<header class="info">
@@ -131,14 +129,14 @@
                      	<form action="" class="goBack">
                         	<fieldset>
                            	<ul class="flightType">
-                              	<li class="hidden"><input type="radio" id="goBack" name="typeFlight" value="Return" checked="checked"/> <label for="goBack">Ida y Vuelta</label></li>
-                              	<li class="hidden"><input type="radio" id="go" name="typeFlight" value="OneWay"/> <label for="go">Solo ida</label></li>
-                              	<li class="hidden"><input type="radio" id="multi" name="typeFlight" value="Other"/> <label for="multi">Multidestino</label></li>
+                              	<li><input type="radio" id="goBack" name="typeFlight" value="Return" checked="checked"/> <label for="goBack">Ida y Vuelta</label></li>
+                              	<li><input type="radio" id="go" name="typeFlight" value="OneWay"/> <label for="go">Solo ida</label></li>
+                              	<li><input type="radio" id="multi" name="typeFlight" value="Other"/> <label for="multi">Multidestino</label></li>
                               	<li><input name="rest" type="hidden" id="rest" value="true"/></li>
                            	</ul>
                         	</fieldset>
                         	<fieldset class="destinyWrapper">
-                           	<ul class="row">
+                           	<ul class="">
                               	<li class="destinyArea">
                                  	<ul>
                                     	<li>
@@ -151,18 +149,17 @@
 													</li>
                                     	<li>
                                     		<label for="fechaIda">Fechas</label> 
-                                    		<input class="datePickerFlag originDate" type="text" readonly="readonly"/> 
+                                    		<input class="datePickerFlag originDate" type="text" value="Mar 28 Oct - Vie 31 Nov"/> 
                                     	</li>
                                     	<li>
                                     		<label for="pasajeros" class="passengers">Pasajeros y Clase</label> 
-                                    		<input type="text" class="passengerText" readonly="readonly"/> 
-                                    		<input name="fechaVuelta" id="fechaVuelta" class="destinyDateHidden" type="hidden"/>
+                                    		<input type="text" class="pasajeros" id="pasajeros" value="2 Pasajeros, Económica"/> 
                                     	</li>
                                  	</ul>
                               	</li>
                               	<li class="submitArea">
                             			<input name="categoryGA" value="vuelos" type="hidden"/> 
-                           			<input type="submit" name="btnResultadoBusqueda" id="btnResultadoBusqueda" value="Buscar"/>
+                           			<button type="submit" name="btnResultadoBusqueda" id="btnResultadoBusqueda"/><i class="fas fa-search"></i></button>
                              	</li>
                            	</ul>
                         	</fieldset>
@@ -294,15 +291,15 @@
             </div>
          </section>
          <footer id="footer">
-         	<div class="container">
-         		<div class="telefonosArea">
-         			<div class="blueArea">
-         				<p>Asesorate por teléfono, llamanos al 0810-222-2848</p>
-         				<p>También podés comprar llamando al 0810-222-2826</p>
-         				<small>Lun a Vie de 8 a 20hs, Sáb y Dom de 9 a 15hs.</small>
-         			</div>
+				<div class="telefonosArea">         	
+         		<div class="container">
+						<p>Asesorate por teléfono, llamanos al 0810-222-2848</p>
+						<p>También podés comprar llamando al 0810-222-2826</p>
+						<small>Lun a Vie de 8 a 20hs, Sáb y Dom de 9 a 15hs.</small>
          		</div>
-         		<div class="legalesArea">
+         	</div>
+         	<div class="legalesArea">
+         		<div class="container">
          			<ul>
          				<li>
          					<small>2008 - 2017 Avantrip.com  Todos los derechos reservados</small>

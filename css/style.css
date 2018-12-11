@@ -32,6 +32,11 @@ main{
 .hidden{
 	display: none;
 }
+.txtHidden{
+	opacity: 0;
+	height: 0;
+	font-size:0;
+}
 /*FIN GLOBAL*/
 
 :root{
@@ -51,6 +56,9 @@ h1{
 	line-height: 5.5rem;
 	font-weight: 100;
 	color:  var(--white);
+}
+#wrapper {
+	background: var(--light-gray);
 }
 #header {
     position: absolute;
@@ -142,9 +150,11 @@ nav > ul{
     padding: 0;
     display: flex;
 }
+#landscape .breadcrumb,
 #landscape .contentLandscape {
     z-index: 5;
     position: relative;
+    background:none;
 }
 
 #landscape .container{
@@ -196,7 +206,130 @@ nav > ul{
     z-index: 1;
 }
 
+/* Title Buscador Area */
+.contentLandscape {
+	padding-top:200px;
+}
+.contentLandscape h2{
+	font-size: 60px;
+	color: var(--white);
+	text-align: center;
+}
+.contentLandscape h2 span{
+	display: block;;
+	font-size:18px;
+	font-weight: 300;
+}
+.search{
+	padding-bottom:100px;
+}
+.search h3{
+	opacity:0;
+	height: 0;
+	font-size:0;
+}
+.flightType{
+	display:flex;
+	flex-wrap:nowrap;
+	justify-content:center;
+}
+.flightType li{
+	padding:20px;
+}
+.flightType input[type='radio']{
+	visibility:hidden;
+	position:absolute;
+}
+.flightType label{
+	color: var(--white);
+	font-size:16px;
+	text-transform:uppercase;
+	cursor:pointer;
+}
+.flightType label:hover{
+	text-decoration:underline;
+}
 
+.destinyWrapper > ul{
+	display:flex;
+	flex-wrap:nowrap;
+	width:100%;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.destinyWrapper > ul > li{
+	height: 70px;
+}
+.destinyArea{
+	display:flex;
+	flex-wrap:nowrap;
+	width: calc( 100% - 70px);
+}
+.destinyArea ul{
+	display:flex;
+	flex-wrap:nowrap;
+	width:100%;
+
+}
+.destinyArea ul li{
+	width: 25%;
+	display:flex;
+	flex-direction:column;
+	align-items:flex-start;
+	background:var(--white);
+	padding: 15px 20px;
+	border-left:1px solid #f1f1f1;
+}
+.destinyArea ul li:first-child{
+	border: none;
+}
+.submitArea{
+	width:70px;
+}
+fieldset label{
+	font-size: 13px;
+	text-transform:uppercase;
+}
+fieldset input{
+	border: none;
+	font-size: 16px;
+	width:100%;
+}
+#btnResultadoBusqueda{
+	width: 100%;
+	height: 100%;
+	display: block;
+	background:var(--red);
+	color:var(--white);
+	font-size:20px;
+}
+
+.preciosPromedioArea{
+	margin-top:20px;
+	background:var(--white);
+	box-shadow: 0px 3px 5px rgba(0,0,0,.25);
+}
+.fechasArea ul{
+	display:flex;
+	flex-wrap: nowrap;
+}
+.ofertasLanding{
+	padding-bottom:60px;
+}
+
+#footer .telefonosArea{
+	background:var(--blue);
+	color:var(--white);
+	padding:50px 0;
+	text-align:center;
+}
+#footer .telefonosArea p{
+	font-size: 17px;
+	padding-bottom:5px;
+}
+#footer .telefonosArea small{
+	font-size: 11px;
+}
 /*--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px*/
 
 @media (max-width: 575px) {
