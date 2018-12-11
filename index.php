@@ -205,12 +205,12 @@
                   		<a href="">
                   			<div>
                   				<span class="spanImg">
-                  					<img src="" alt="Hampton Inn Manhattan" title="Hampton Inn Manhattan">
+                  					<img src="images/137190a_hb_r_001.jpg" alt="Hampton Inn Manhattan" title="Hampton Inn Manhattan">
                   				</span>
                   				<div class="textAreaOferta">
                   					<p>Hotel en Nueva York</p>
                   					<h2>Hampton Inn Manhattan</h2>
-                  					<span class="stars star4"></span>
+                  					<span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span>
                   					<div class="priceArea">
                   						<small>Desde</small>
                   						<p>AR$ 5.961</p>
@@ -226,12 +226,12 @@
                   		<a href="">
                   			<div>
                   				<span class="spanImg">
-                  					<img src="" alt="Yotel" title="Yotel">
+                  					<img src="images/013442a_hb_a_050.jpg" alt="Yotel" title="Yotel">
                   				</span>
                   				<div class="textAreaOferta">
                   					<p>Hotel en Nueva York</p>
                   					<h2>Yotel</h2>
-                  					<span class="stars star4"></span>
+                  					<span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span>
                   					<div class="priceArea">
                   						<small>Desde</small>
                   						<p>AR$ 4.850</p>
@@ -247,12 +247,12 @@
                   		<a href="">
                   			<div>
                   				<span class="spanImg">
-                  					<img src="" alt="Wyndham New York" title="Wyndham New York">
+                  					<img src="images/013445a_hb_a_072.jpg" alt="Wyndham New York" title="Wyndham New York">
                   				</span>
                   				<div class="textAreaOferta">
                   					<p>Hotel en Nueva York</p>
                   					<h2>Wyndham New York</h2>
-                  					<span class="stars star4"></span>
+                  					<span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span>
                   					<div class="priceArea">
                   						<small>Desde</small>
                   						<p>AR$ 4.605</p>
@@ -268,12 +268,12 @@
                   		<a href="">
                   			<div>
                   				<span class="spanImg">
-                  					<img src="" alt="Stewart Hotel" title="Stewart Hotel">
+                  					<img src="images/050017a_hb_a_010.jpg" alt="Stewart Hotel" title="Stewart Hotel">
                   				</span>
                   				<div class="textAreaOferta">
                   					<p>Hotel en Nueva York</p>
                   					<h2>Stewart Hotel</h2>
-                  					<span class="stars star4"></span>
+                  					<span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span>
                   					<div class="priceArea">
                   						<small>Desde</small>
                   						<p>AR$ 5.961</p>
@@ -309,10 +309,10 @@
          				<li>
          					<ul>
          						<li>
-         							<a href="" title="Norton"><img src="" alt="Norton" title="Norton"></a>
+         							<a href="" title="Norton"><img src="images/geotrust.jpg" alt="Norton" title="Norton"></a>
          						</li>
          						<li>
-         							<a href="" title="Norton"><img src="" alt="Norton" title="Norton"></a>
+         							<a href="" title="Norton"><img src="images/true.jpg" alt="Norton" title="Norton"></a>
          						</li>
          					</ul>
          				</li>

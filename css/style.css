@@ -45,6 +45,7 @@ main{
 	--red: #f1051c;
 	--light-gray: #efefef;
 	--dark-gray: #525252;
+	--yellow: #ffd201;
 }
 
 .overflow{
@@ -102,6 +103,7 @@ nav > ul{
 }
 .menuArea > ul .mas ul{
 	display:none;
+	position:absolute;
 }
 .menuArea > ul .mas > a i{
 	padding-left: 35px;
@@ -316,13 +318,94 @@ fieldset input{
 section h2{
 	font-size: 30px;
 	text-align: center;
-	font-weight:300;
+	font-weight:100;
+	padding-bottom: 40px;
 }
 .ofertasLanding{
 	padding:60px 0;
 }
 .textArea{
 	padding-top: 60px;
+}
+.textArea p{
+	font-size:16px;
+	line-height:18px;
+	padding: 0 15%;
+	color:var(--dark-gray);
+}
+.ofertasContent ul{
+	display: flex;
+	flex-wrap:nowrap;
+	
+}
+.ofertasContent ul li{
+	width:25%;
+}
+.ofertasContent a{
+	background: var(--white);
+	display:block;
+	height:100%;
+	box-shadow:0px 5px 5px rgba(0,0,0,.25);
+}
+.ofertasContent .spanImg{
+	border-bottom:2px solid var(--dark-gray);
+	display:block;
+}
+.ofertasContent .spanImg img{
+	display: block;
+	width:100%;
+}
+.textAreaOferta{
+	padding:15px;
+	color:var(--dark-gray);
+}
+
+.textAreaOferta p{
+	font-size:14px;
+	font-weight:300;
+	padding-bottom:5px;
+}
+.textAreaOferta h2{
+	text-align:left;
+	font-size: 26px;
+	font-weight:600;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	padding:0;
+}
+.textAreaOferta small{
+	color:var(--dark-gray);
+	font-size:11px;
+}
+.stars{
+	color:var(--yellow);
+	font-size:17px;
+	padding-bottom:5px;
+}
+.priceArea{
+	color: var(--red);
+}
+.priceArea small{
+	font-weight:600;
+	color: var(--red);
+}
+.priceArea p{
+	font-size:25px;
+	font-weight:600;
+	padding:0;
+}
+.priceArea .before span{
+	text-decoration:line-through;
+}
+
+.textAreaOferta h5{
+	cursor: pointer;
+	color: var(--blue);
+	text-align: right;
+	text-transform: uppercase;
+	font-size:14px;
+	font-weight:600;
 }
 
 #footer .telefonosArea{
@@ -337,6 +420,30 @@ section h2{
 }
 #footer .telefonosArea small{
 	font-size: 11px;
+}
+#footer .legalesArea{
+	background: var(--white);
+	padding:10px 0;
+}
+.legalesArea ul{
+	display:flex;
+	flex-wrap:nowrap;
+}
+.legalesArea ul li{
+	width:50%;
+}
+.legalesArea small{
+	display: block;
+	font-size:10px;
+	color: var(--dark-gray);
+}
+.legalesArea ul ul{
+	justify-content:flex-end;
+	width:100%;
+}
+.legalesArea ul ul li{
+	width: auto;
+	padding-left:30px;
 }
 /*--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px*/
 
