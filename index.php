@@ -172,7 +172,8 @@
          <section class="preciosPromedio">
          	<div class="container">
          		<div class="preciosPromedioArea">
-         			<div class="fechasArea">
+         			<img src="images/grafica.png" alt="Grafica" title="Grafica">
+         			<!--div class="fechasArea">
          				<ul>
          					<li>
          						flecha
@@ -185,7 +186,7 @@
          			</div>
          			<div class="dataPrecios">
          				Grafico
-         			</div>
+         			</div-->
          		</div>
          	</div>
          </section>
