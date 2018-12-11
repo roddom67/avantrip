@@ -313,8 +313,16 @@ fieldset input{
 	display:flex;
 	flex-wrap: nowrap;
 }
+section h2{
+	font-size: 30px;
+	text-align: center;
+	font-weight:300;
+}
 .ofertasLanding{
-	padding-bottom:60px;
+	padding:60px 0;
+}
+.textArea{
+	padding-top: 60px;
 }
 
 #footer .telefonosArea{
