@@ -1,37 +1,3 @@
-<!DOCTYPE HTML>
-<html lang="es">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="cache-control" content="max-age=0" />
-	<meta http-equiv="cache-control" content="no-cache" />
-	<meta http-equiv="expires" content="0" />
-	<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
-	<meta http-equiv="pragma" content="no-cache" />
-	<meta http-equiv="pragma-directive: no-cache">
-	<meta http-equiv="cache-directive: no-cache">
-	
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
-	
-	<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-
-	
-   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-   <meta name="mobile-web-app-capable" content="yes">
-   
-	<link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,600,700,900" rel="stylesheet">
-	<link rel="stylesheet" href="css/bootstrap.min.css" >
-	<link rel="stylesheet" href="css/style.css" >
-	
-	<title>New York | Avantrip</title>
-	<meta name="description" content="Escapate a Nueva York con Avantrip y recorré la Gran Manzana. Descubrí los Hoteles y Vuelos a Nueva York con Avantrip." />
-	<meta name="keywords" content="neuva york, avantrip, gran manzana, hoteles, vuelos, escapate">
-	
-</head>
-
-
 <!doctype html>
 <html lang="es">
    <head prefix="og: http://ogp.me/ns#">
