@@ -1,12 +1,29 @@
-import React, { Component } from 'react';
-import logo from '../images/logo.svg';
-import '../css/App.css';
+<!doctype html>
+<html lang="es">
+   <head prefix="og: http://ogp.me/ns#">
 
-class App extends Component {
-  render() {
-    return (
-    <div>
-    	<div id="wrapper" className="staticPage flights-to hotels-to newYork">
+      <meta charset="UTF-8"/>
+      <meta name="robots" content="index,follow"/>
+      <meta http-equiv="cache-control" content="no-cache"/>
+      <meta http-equiv="expires" content="0"/>
+      <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT"/>
+      <meta http-equiv="pragma" content="no-cache"/>
+      <meta http-equiv="pragma-directive: no-cache"/>
+      <meta http-equiv="cache-directive: no-cache"/>
+      <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+      <meta name="format-detection" content="telephone=no"/>
+      <title>Vuelos y Hoteles a New York | Avantrip</title>
+      <meta name="description" content="¿Buscás ofertas en Vuelos y Hoteles a Nueva York Llegaste al lugar indicado. En Avantrip podrás encontrar los mejores precios para reservar tu vuelo y hotel a Nueva York. No esperes más ¡es fácil, seguro y rápido! Escapate a Nueva York.">
+      <meta property="og:title" content="Vuelos y Hoteles a New York | Avantrip"/>
+      <meta property="og:description" content="¿Buscás ofertas en Vuelos y Hoteles a Nueva York Llegaste al lugar indicado. En Avantrip podrás encontrar los mejores precios para reservar tu vuelo y hotel a Nueva York. No esperes más ¡es fácil, seguro y rápido! Escapate a Nueva York."/>
+      
+      <link rel="shortcut icon" href="favicon.ico"/>
+      <link rel="stylesheet" href="css-react/normalize.css?v=1.0"/>
+      <link rel="stylesheet" href="css/bootstrap.min.css?v=1.0" >
+		<link rel="stylesheet" href="css/style.css?v=1.0" >
+   </head>
+   <body>
+      <div id="wrapper" className="staticPage flights-to hotels-to newYork">
          <header id="header">
          	<div className="container">
          		<nav>
@@ -108,21 +125,21 @@ class App extends Component {
                               	</li>
                               	<li className="submitArea">
                             			<input name="categoryGA" value="vuelos" type="hidden"/> 
-                           			<button type="submit" name="btnResultadoBusqueda" id="btnResultadoBusqueda" ><i className="fas fa-search"></i></button>
+                           			<button type="submit" name="btnResultadoBusqueda" id="btnResultadoBusqueda"/><i className="fas fa-search"></i></button>
                              	</li>
                            	</ul>
                         	</fieldset>
                      	</form>
                   	</article>
                	</section>
-            	</section>
-            </div>
+          		</div>
+            </section>
          </main>
          <section className="preciosPromedio">
          	<div className="container">
          		<div className="preciosPromedioArea">
          			<img src="images/grafica.png" alt="Grafica" title="Grafica" />
-         			{/* <!--div className="fechasArea">
+         			<!--div className="fechasArea">
          				<ul>
          					<li>
          						flecha
@@ -135,7 +152,7 @@ class App extends Component {
          			</div>
          			<div className="dataPrecios">
          				Grafico
-         			</div--> */}
+         			</div-->
          		</div>
          	</div>
          </section>
@@ -218,7 +235,7 @@ class App extends Component {
                   		<a href="">
                   			<div>
                   				<span className="spanImg">
-                  					<img src="images/050017a_hb_a_010.jpg" alt="Stewart Hotel" title="Stewart Hotel" />
+                  					<img src="images/050017a_hb_a_010.jpg" alt="Stewart Hotel" title="Stewart Hotel">
                   				</span>
                   				<div className="textAreaOferta">
                   					<p>Hotel en Nueva York</p>
@@ -235,6 +252,7 @@ class App extends Component {
                   			</div>
                   		</a>
                   	</li>
+                  	
                   </ul>
                </div>
             </div>
@@ -272,15 +290,10 @@ class App extends Component {
       </div>
       <script type="text/javascript" src="js/jquery-1.10.2.min.js?v=1.0.1"></script>
       <script type="text/javascript" src="js/jquery-ui.min.js?v=1.0"></script>
-      {/* <!--[if (lte IE 9)]>
+      <!--[if (lte IE 9)]>
       <script type="text/javascript" src="js/mediaQueryPolyFill.js"></script>
       <script type="text/javascript" src="js/adapt.min.js"></script>
-      <![endif]--> */}
-     </div>
-      
+      <![endif]-->
+   </body>
+</html>
 
-    );
-  }
-}
-
-export default App;
