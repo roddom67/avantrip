@@ -21,10 +21,9 @@ class SearchArea extends Component {
 						<form action="" className="goBack">
 							<fieldset>
 								<ul className="flightType">
-									<li><input style={inputStyle} type="radio" id="goBack" name="typeFlight" value="Return" checked="checked"/> <label for="goBack">Ida y Vuelta</label></li>
-									<li><input style={inputStyle} type="radio" id="go" name="typeFlight" value="OneWay"/> <label for="go">Solo ida</label></li>
-									<li><input style={inputStyle} type="radio" id="multi" name="typeFlight" value="Other"/> <label for="multi">Multidestino</label></li>
-									<li><input style={inputStyle} name="rest" type="hidden" id="rest" value="true"/></li>
+									<li><input type="radio" id="goBack" name="typeFlight" value="Return" checked="checked"/> <label for="goBack">Ida y Vuelta</label></li>
+									<li><input type="radio" id="go" name="typeFlight" value="OneWay"/> <label for="go">Solo ida</label></li>
+									<li><input type="radio" id="multi" name="typeFlight" value="Other"/> <label for="multi">Multidestino</label></li>
 								</ul>
 							</fieldset>
 							<fieldset className="destinyWrapper">
@@ -33,19 +32,19 @@ class SearchArea extends Component {
 										<ul>
 											<li>
 												<label for="origenText">Origen</label> 
-												<input name="origenText" id="origenText" type="text" className="autoCompleteFlag originPlace" value="Buenos Aires (EZE)"/> 
+												<input style={inputStyle} name="origenText" id="origenText" type="text" className="autoCompleteFlag originPlace" value="Buenos Aires (EZE)"/> 
 											</li>
 											<li>
 												<label for="destinoText">Destino</label> 
-												<input id="destinoText" name="destinoText" type="text" className="autoCompleteFlag destinyPlace" value="Nueva York (JFK)" readonly="readonly"/> 
+												<input style={inputStyle} id="destinoText" name="destinoText" type="text" className="autoCompleteFlag destinyPlace" value="Nueva York (JFK)" readonly="readonly"/> 
 											</li>
 											<li>
 												<label for="fechaIda">Fechas</label> 
-												<input className="datePickerFlag originDate" type="text" value="Mar 28 Oct - Vie 31 Nov"/> 
+												<input style={inputStyle} className="datePickerFlag originDate" type="text" value="Mar 28 Oct - Vie 31 Nov"/> 
 											</li>
 											<li>
 												<label for="pasajeros" className="passengers">Pasajeros y Clase</label> 
-												<input type="text" className="pasajeros" id="pasajeros" value="2 Pasajeros, Económica"/> 
+												<input style={inputStyle} type="text" className="pasajeros" id="pasajeros" value="2 Pasajeros, Económica"/> 
 											</li>
 										</ul>
 									</li>
