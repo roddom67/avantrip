@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-{/* import styled from 'styled-components'; */}
 
 import Header from '../components/Header.js';
 import Breadcrumb from '../components/Breadcrumb.js';

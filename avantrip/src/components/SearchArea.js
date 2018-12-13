@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-{/* import styled from 'styled-components'; */}
 
 const inputStyle = {
-	border: none,
-	font-size: '16px',
+	border: 'none',
+	fontSize: '16px',
 	width: '100%'
 }
 
