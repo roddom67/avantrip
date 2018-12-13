@@ -13,9 +13,12 @@
       <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
       <meta name="format-detection" content="telephone=no"/>
       <title>Vuelos y Hoteles a New York | Avantrip</title>
+      
       <meta name="description" content="¿Buscás ofertas en Vuelos y Hoteles a Nueva York Llegaste al lugar indicado. En Avantrip podrás encontrar los mejores precios para reservar tu vuelo y hotel a Nueva York. No esperes más ¡es fácil, seguro y rápido! Escapate a Nueva York.">
       <meta property="og:title" content="Vuelos y Hoteles a New York | Avantrip"/>
       <meta property="og:description" content="¿Buscás ofertas en Vuelos y Hoteles a Nueva York Llegaste al lugar indicado. En Avantrip podrás encontrar los mejores precios para reservar tu vuelo y hotel a Nueva York. No esperes más ¡es fácil, seguro y rápido! Escapate a Nueva York."/>
+      
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
       
       <link rel="shortcut icon" href="favicon.ico"/>
       <link rel="stylesheet" href="css-react/normalize.css?v=1.0"/>

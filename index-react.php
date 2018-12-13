@@ -18,7 +18,7 @@
       <meta property="og:description" content="¿Buscás ofertas en Vuelos y Hoteles a Nueva York Llegaste al lugar indicado. En Avantrip podrás encontrar los mejores precios para reservar tu vuelo y hotel a Nueva York. No esperes más ¡es fácil, seguro y rápido! Escapate a Nueva York."/>
       
       <link rel="shortcut icon" href="favicon.ico"/>
-      <link rel="stylesheet" href="css-react/normalize.css?v=1.0"/>
+      <link rel="stylesheet" href="css/normalize.css?v=1.0"/>
       <link rel="stylesheet" href="css/bootstrap.min.css?v=1.0" >
 		<link rel="stylesheet" href="css/style.css?v=1.0" >
    </head>
