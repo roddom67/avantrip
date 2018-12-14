@@ -46,6 +46,7 @@ main{
 	--light-gray: #efefef;
 	--dark-gray: #525252;
 	--yellow: #ffd201;
+	--green: #5ac67b;
 }
 
 .overflow{
@@ -446,6 +447,74 @@ section h2{
 	width: auto;
 	padding-left:30px;
 }
+
+/* Grafico Precios Promedio */
+/* Titulos fecha */
+
+.fechasArea li.active a{
+	color:var(--blue) !important;
+	border-bottom: 2px solid var(--blue);
+	cursor:default !important;
+}
+.fechasArea li.active small,
+.fechasArea li.active h4{
+	color:var(--blue) !important;
+	font-weight:600;
+}
+
+/* Precios Graficados */
+.precioGrafico{
+	width: calc(100% - 90px);
+}
+.precioGrafico > div{
+	position: relative;
+}
+.precioGrafico > div .lineas{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background: #efefef;
+	opacity: .5;
+}
+.precioGrafico > div .linea1{	top:20%;}
+.precioGrafico > div .linea2{	top:40%;}
+.precioGrafico > div .linea3{	top:60%;}
+.precioGrafico > div .linea4{	top:80%;}
+
+.precioGrafico>small{
+	color: var(--dark-gray);
+	font-size:10px;
+	line-height: 15px;
+	opacity: .5;
+}
+.precioGrafico ul li {
+	position:relative;
+}
+.precioGrafico ul li span{
+	width:14px;
+	background:var(--blue);
+	border-radius: 7px;
+	display:block;
+	text-indent: -1000em;
+	margin:0 auto;
+}
+.precioGrafico ul li.desdeMark span{
+	background:var(--green);
+}
+
+.precioGrafico ul li small{
+	transform: rotate(-90deg);
+	display: block;
+	width:14px;
+	margin: 0 auto;
+	font-size:11px;
+	position:absolute;
+	bottom:-40px;
+	left:0;
+	white-space: nowrap;
+}
+
 /*--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px*/
 
 @media (max-width: 575px) {
@@ -480,8 +549,51 @@ section h2{
 		width:100%;
 		padding-bottom: 40px;
 	}
+	.fechasArea ul li ul li{
+		width:0;
+	}
+	.fechasArea ul li ul li a{
+		display: none;
+	}
+	.fechasArea ul li ul li.active{
+		width:100%;
+	}
+	.fechasArea ul li ul li.active a{
+		display: block;
+	}
+	.precioGrafico{
+		width:100%;
+		padding-top:0px;
+	}
+	.precioGrafico ul li{
+		padding:2px 0;
+	}
+	.precioGrafico ul li span{
+		height:14px;
+	}
+	.precioGrafico ul li small{
+		transform: rotate(0deg);
+		display: block;
+		height:14px;
+		margin: 0 auto;
+		font-size:11px;
+		position:absolute;
+		bottom:1px;
+		left:10px;
+		white-space: nowrap;
+		color:var(--white);
+	}
 	
-}
+	.precioGrafico > div .lineas{
+		top: 0;
+		height: 100%;
+		width: 1px;
+	}
+	.precioGrafico > div .linea1{	left:20%;}
+	.precioGrafico > div .linea2{	left:40%;}
+	.precioGrafico > div .linea3{	left:60%;}
+	.precioGrafico > div .linea4{	left:80%;}
+	}
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 768px) {
